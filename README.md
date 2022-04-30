@@ -9,6 +9,20 @@ Web scrapers can break if the website starts outputting new HTML that doesn't ma
 
 Next, we can to build tools for inspecting and organizing the data, and finally an interface that allows the user to customize this pipeline and see the results quickly (latency hopefully minimized).
 
+## What are some potential road blocks?
+
+For starters, I was looking at twitter. They have an official API, but it's geared more towards enterprise.
+
+see links
+- https://developer.twitter.com/en/docs/twitter-api/migrate/twitter-api-endpoint-map
+- https://developer.twitter.com/en/docs/twitter-api/getting-started/about-twitter-api
+
+I'm tempted to build a web scraper that operates by hitting the same API endpoints the twitter web app uses. That way, we can access "Tweet Analytics" for impressions and such.
+
+Also, I should reconfirm the goal of the project with the client.
+
+After reading the initial pitch that got me interested in working on this, it looks like the main goals I should be focusing on are automation of the scheduling and posting of content, supporting multiple social media platforms, and also grabbing notificaitons and direct messages from each platform.
+
 # Aside
 
 I realized after I made this repo, I had another repo named `social-media-detective-toolkit`, but I never made any progress. If I'm remember correctly what I meant for that project to be, this project is actually larger in scope, and implementing the detective toolkit on top of this presence control panel would be trivial once this project is operational.
