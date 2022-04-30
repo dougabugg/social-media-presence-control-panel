@@ -23,6 +23,12 @@ Also, I should reconfirm the goal of the project with the client.
 
 After reading the initial pitch that got me interested in working on this, it looks like the main goals I should be focusing on are automation of the scheduling and posting of content, supporting multiple social media platforms, and also grabbing notificaitons and direct messages from each platform.
 
+## Update on backend
+
+I plan on developing on my current OS/Desktop Env, which is win10 currently.
+Right now, I'm reviewing documentation https://docs.microsoft.com/en-us/microsoft-edge/webview2/reference/win32/icorewebview2
+
+
 # Aside
 
 I realized after I made this repo, I had another repo named `social-media-detective-toolkit`, but I never made any progress. If I'm remember correctly what I meant for that project to be, this project is actually larger in scope, and implementing the detective toolkit on top of this presence control panel would be trivial once this project is operational.
