@@ -1,6 +1,16 @@
 # social-media-presence-control-panel
 An applicaiton for managing social media presence on multiple platforms
 
+# Project Viability
+
+It is not uncommon for me to start a project, but run into a roadblock, and lose interest in working on the project for a time. This project is no different. I guess the roadblock that hit me the hardest was how "viable" this project would be. The current path I was heading down, I was effectively trying to reimplement [selenium](https://en.wikipedia.org/wiki/Selenium_(software)) using a webview and some hacky javascript. I might still be able to make a working prototype this way, but I'm not convinced it will be a good path forward for the project in the long term.
+
+Another idea I had was to build a framework to allow the user to "record" their interactions with any website, and then "play back" and customize certain aspects of the interaction in an automated fashion later. I think this is a lot more viable and useful; if a website changes their layout and breaks the automation, users don't need to wait for an update or patch to be released by a developer, they simply need to "re-record" any interactions that "broke".
+
+So the scope of this "super project" is much larger than this project; my goal now is to build a tool for automating arbitrary interactions on websites for sending and collecting data. Such a project might not benefit from a simple webview, but a full fledged user agent, like [servo](https://en.wikipedia.org/wiki/Servo_(software))
+
+# (previous musings)
+
 ## What's the roadmap?
 
 The high level roadmap is first to design/document and then build web scrapers to grab data from various social media websites, and present all that data in various forms for further processing and inspection.
@@ -28,7 +38,6 @@ After reading the initial pitch that got me interested in working on this, it lo
 I plan on developing on my current OS/Desktop Env, which is win10 currently.
 Right now, I'm reviewing documentation https://docs.microsoft.com/en-us/microsoft-edge/webview2/reference/win32/icorewebview2
 
-
-# Aside
+## Aside
 
 I realized after I made this repo, I had another repo named `social-media-detective-toolkit`, but I never made any progress. If I'm remember correctly what I meant for that project to be, this project is actually larger in scope, and implementing the detective toolkit on top of this presence control panel would be trivial once this project is operational.
